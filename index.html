@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quick start / Methodology</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
 </head>
+
 <body>
     <header class="page-header">
+        <a class="page-header__logo">
+        <svg class="page-header__logo-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.7 84">
+            <path d="M0 13h23.8v7H0zM0 0h23.8v7H0zm42.7 25.9H0v7h41.1c4.5 0 15 .1 18.9 6.4v-3.9c-1.9-6.2-7.5-9.5-17.3-9.5zm.1 13H0v7h41.1c10 0 16.3.4 18.9 1.8v-3.1c-2-4.9-10.4-5.7-17.2-5.7zm-.1 33H0v-7h41.1c4.5 0 15-.1 18.9-6.4v3.9c-1.9 6.2-7.5 9.5-17.3 9.5zm.1-13H0v-7h41.1c10 0 16.3-.4 18.9-1.8v3.1c-2 4.9-10.4 5.7-17.2 5.7zM70.4 84h31.4v-4.3H71.3c-2.7 0-9.1-.1-11.4-3.8v2.4C61 82 64.4 84 70.4 84zm-.1-7.9h31.4v-4.3H71.3c-6.1 0-9.9-.2-11.4-1.1v1.9c1.2 3 6.3 3.5 10.4 3.5z"></path>
+        </svg>
+    </a>
         <div class="page-header__title">
             Methodology
         </div>
@@ -18,19 +26,17 @@
             <span class="page-header__forum">
                 Forum
             </span>
-            <span class="page-header__language">
-                <select class="language__select">
-                    <option class="language__option">EN</option>
-                    <option class="language__option">PL</option>
-                </select>
-            </span>
+            <select class="page-header__language">
+                <option class="language__option">EN</option>
+                <option class="language__option">PL</option>
+            </select>
             <span class="page-header__search">
                 <i class="fas fa-search"></i>
             </span>
         </div>
     </header>
     <section class="left-column">
-        <ul>
+        <ul class="left-column__list">
             <li>Quick start</li>
             <li> Key concepts</li>
             <li>Naming convention</li>
@@ -48,13 +54,28 @@
             <li>FAQ</li>
         </ul>
     </section>
-    <section>
-        <h1></h1>
-        <h2>
-        </h2>
+    <section class="main-block">
+        <h1 class="main-block__block-title">Quick start</h1>
+        <div class="main-block__paragraph">
+            <h2 class="paragraph__title">Introduction</h2>
+            <p class="paragraph__text">BEM (Block, Element, Modifier) is a component-based approach to web development. The idea behind it is to divide
+                the user interface into independent blocks. This makes interface development easy and fast even with a complex
+                UI, and it allows reuse of existing code without copying and pasting.</p>
+        </div>
+        <div class="main-block__paragraph">
+            <h2 class="paragraph__title">Contents</h2>
+            <p class="paragraph__text">BEM (Block, Element, Modifier) is a component-based approach to web development. The idea behind it is to divide
+                the user interface into independent blocks. This makes interface development easy and fast even with a complex
+                UI, and it allows reuse of existing code without copying and pasting.</p>
+        </div>
+        <div class="main-block__paragraph">
+            <h2 class="paragraph__title">Block</h2>
+            <p class="paragraph__text">A functionally independent page component that can be reused. In HTML, blocks are represented by the class attribute.</p>
+        </div>
     </section>
-    <section>
-        
+    <section class="right-column">
+        methodology
     </section>
 </body>
+
 </html>
